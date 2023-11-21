@@ -566,3 +566,170 @@ input {
     width: 120px;
     height: 40px;
 }
+
+td,th {
+/*    border: 1px solid black;*/
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom:  1px solid #c2d3de;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.form-cart {
+    background-color: cornflowerblue;
+    width: 40%;
+    min-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cart-button {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    float: right;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 40px;
+}
+
+.cart-botton {
+    padding: 10px;
+    display: block;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.cart-botton:hover {
+    background-color: chocolate;
+}
+.cart-botton:active {
+    background-color: aqua;
+}
+.cart-botton:focus {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.cart-h6 {
+    font-size: 20px;
+    color: darkblue;
+    text-align: left;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-table td:nth-child(2){
+    width: 400px;
+}
+
+.cart-head {
+    border="1"
+}
+
+.cat-background {
+    width: 100%;
+    height: 500px;
+    max-width: 700px;
+    background-color: #c2d3de;
+    margin: auto;
+    padding: 30px;
+}
+
+.cell-long1 {
+    width: 700px;
+}
+.cell-long2 {
+    width: 300px;
+}
+.cell-long3 {
+    width: 300px;
+}
+.cell-long4 {
+    width: 300px;
+}
+
+.cart-bottom {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    float: right;
+}
+
+.cat-background h3 {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.input-test {
+    font-size: 20px;
+}
+.input-test:focus {
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+.custom-link:link {
+    color: aqua;
+}
+.custom-link:visited {
+    color: black;
+}
+
+.btn-red {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: red;
+}
+
+.btn-blue {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: blue;
+}
+
+.f-small {
+    font-size: 12px;
+}
+.f-mid {
+    font-size: 16px;
+}
+.f-lg {
+    font-size: 30px;
+}
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.bg-red {
+    background: red;
+}
+.bg-blue {
+    background: blue;
+}

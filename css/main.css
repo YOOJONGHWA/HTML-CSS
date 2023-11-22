@@ -809,6 +809,71 @@ table {
 }
 
 
+.explain-container i {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 40px;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shope-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-time {
+    width: 33%;
+    padding: 10px;
+}
+.shop-time img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0.0.0.0.3);
+    margin-top: 100%;
+}
+.overlay-wrap:hover .overlay-black {
+    margin-top: 50%;
+}
+
+.overlay-black {
+    width : 100%;
+    height : 100%;
+    background : rgba(0,0,0,0.3);
+    padding : 20px;
+    margin-top : 100%;
+    transition: all 1s;
+}
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.overlay-wrap:hover .overlay{
+    margin-top: 50%;
+}
+.overlay-wrap
+
+.overlay-span {
+    color: white;
+    margin: 35%;
+}
 @media screen and (max-width: 1200px) {
     .explain-container div {
         width: 50%;
@@ -819,6 +884,7 @@ table {
     .w-50 {
         width: 50%
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -829,15 +895,21 @@ table {
         width: 100%
     }
 }
+.overlay-wrap1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.overlay-wrap1:hover .overlay-black1 {
+    margin-top: 50%;
+}
 
-
-.explain-container i {
-    background-color: burlywood;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    padding-top: 25px;
-    box-sizing: border-box;
-    color: white;
-    margin-top: 40px;
+.overlay-black1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-top: 100%;
+    transition: all 1s;
 }

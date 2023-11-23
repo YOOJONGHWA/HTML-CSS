@@ -400,9 +400,6 @@ template {
     margin-bottom: 10px;
 }
 .header {
-    width: 100%;
-    height: 100px;
-    background: aquamarine;
 }
 .left-menu {
     width: 20%;
@@ -790,9 +787,7 @@ table {
 }
 
 .test {
-    width: 10rem;
-    height: 50px;
-    background: grey;
+    background-color: aqua;
 }
 .explain-container {
     width: 80%;

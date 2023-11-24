@@ -908,3 +908,11 @@ table {
     margin-top: 100%;
     transition: all 1s;
 }
+
+div.main-background .custom {
+    color: green;
+}
+/* main2.css*/
+.costom {
+    color: skyblue;
+}

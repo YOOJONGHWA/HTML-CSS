@@ -1,0 +1,53 @@
+
+.sns-beakground {
+    width: 100%;
+    background-color: #f7f9fc;
+    padding: 100px;
+    
+}
+
+.sns-header {
+    float :
+}
+
+.white-box {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.sns-border {
+    border-left: 1px solid black;
+}
+
+.pill {
+    display: inline-block;
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+
+.box-white {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.profile {  
+    padding: 20pxs;
+}
+.top {
+    border-left: 1px solid gray;
+}
+.second {
+    border-top: 4px solid gray;
+}
+
+.second {
+    padding-left: 10px;
+    padding-right: 10px;
+}

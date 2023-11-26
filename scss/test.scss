@@ -1,11 +1,44 @@
-
-.sh-list li{
-    list-style: none;
+@mixin row-col($percent) {
+    float: left;
+    width: $percent;
     padding: 15px;
-    border: 1px solid  #eee;
+    .row .col-6 {
+        @include row-col(50%);
+    }
+    .row .col-4 {
+        @include row-col(33.33%);
+    }
 }
-.active {
-    background-color: blue;
+.sh-list {
+    li{
+        list-style: none;
+        padding: 15px;
+        border: 1px solid  #eee;
+    }
+    .active {
+        background-color: #2a4cb2;
+    }
+
+}
+@mixin alert-box($color){
+    background-color: $color;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background: green;
+    color: white;
+    .peseido::first-line {
+        font-size: 30px;
+    }
+}
+.one {
+    @include alert-box(yellow);
+}
+.two {
+    @include alert-box(yellow);
+}
+.tre {
+    @include alert-box(yellow);
 }
 
 @mixin 폰트스타일($구멍) {
@@ -13,8 +46,10 @@
     letter-spacing: -1px; 
 }
 
+
 h2 {
-    @include 폰트스타일(30px);
+
+   
 }
 h3 {
     @include 폰트스타일(20px);

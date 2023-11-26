@@ -3,12 +3,44 @@
   padding: 15px;
   border: 1px solid #eee;
 }
+.sh-list .active {
+  background-color: #2a4cb2;
+}
 
-
-
-h2 {
+.one {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: green;
+  color: white;
+}
+.one .peseido::first-line {
   font-size: 30px;
-  letter-spacing: -1px;
+}
+
+.two {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: green;
+  color: white;
+}
+.two .peseido::first-line {
+  font-size: 30px;
+}
+
+.tre {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: green;
+  color: white;
+}
+.tre .peseido::first-line {
+  font-size: 30px;
 }
 
 h3 {

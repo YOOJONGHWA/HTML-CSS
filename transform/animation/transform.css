@@ -1,0 +1,100 @@
+.ani-navbar {
+    width: 200px;
+    background: black;
+    color: white;
+    height: 100%;
+    padding: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+    transition: all 1s;
+    transform: translateX(-150px);
+  }
+  .ani-navbar:hover {
+    transform: translateX(0px);
+    text-align: center;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(-250px) }
+    50% { transform: translateX(50px) skewX(-30deg)}
+    100% { transform: translateX(0px) }
+  }
+  
+  .ani-navbar:hover p {
+    animation-name: slide;
+    animation-duration: 1s;
+  } 
+
+.plus {
+    font-size: 40px;
+    margin: 150px auto;
+    font-size: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.plus:hover {
+    animation-name: 회전;
+    animation-duration: 1s;
+}
+@keyframes 회전 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(40deg) scale(2);
+    }
+}
+.button {
+    margin: 150px auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    display: block;
+}
+.button:hover {
+    animation-name: 흔들버튼;
+    animation-duration: 1s;
+}
+@keyframes 흔들버튼 {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-20deg)
+    }
+    70% {
+        transform: rotate(20deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+.ani-text {
+    text-align: center;
+}
+.ani-text:hover {
+    animation-name: 왔다갔다;
+    animation-duration: 1s;
+}
+
+@keyframes 왔다갔다 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    70% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

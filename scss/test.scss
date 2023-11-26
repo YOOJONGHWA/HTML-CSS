@@ -1,0 +1,90 @@
+
+.sh-list li{
+    list-style: none;
+    padding: 15px;
+    border: 1px solid  #eee;
+}
+.active {
+    background-color: blue;
+}
+
+@mixin 폰트스타일($구멍) {
+    font-size: $구멍;
+    letter-spacing: -1px; 
+}
+
+h2 {
+    @include 폰트스타일(30px);
+}
+h3 {
+    @include 폰트스타일(20px);
+}
+h4 {
+    @include 폰트스타일(10px);
+}
+.test-allin {
+    text-align: center;
+}
+.main-bg h4 {
+    font-size: 16px;
+}
+.main-bg button {
+    color: red;
+}
+
+.main-bg {
+    width: 100px;
+    h4 {
+        font-size: 16px;
+    }
+    button {
+        color: red;
+    }
+}
+.boxs {
+    width: 100px;
+    height: 300px;
+    padding: 20px;
+}
+.blue-boxs {
+    color: #2a4cb2;
+}
+.red-boxs {
+    background: red;
+}
+.green-boxs {
+    background: green;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.btn-red {
+    @extend .btn;
+    background: red;
+}
+.btn-green {
+    @extend .btn;
+    background: green;
+}
+.btn-blue {
+    @extend .btn;
+    background: blue;
+}
+
+
+$메인칼라 : #2a4cb2;
+$서브칼라 : #eeee;
+$기본사이즈 : 20px;
+
+.box {
+    width: 100%;
+    color: $메인칼라;
+    font-size: ($기본사이즈 / 2px);
+}
+.background {
+    background-color: $메인칼라;
+    font-size: ($기본사이즈 + 2px);
+}

@@ -1,0 +1,151 @@
+/* .ani-navbar {
+    width: 200px;
+    background: rgb(63, 32, 92);
+    color: white;
+    height: 100%;
+    padding: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+    transition: all 1s;
+    transform: translateX(-150px);
+  }
+  .ani-navbar:hover {
+    transform: translateX(0px);
+    text-align: center;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(-250px) }
+    50% { 
+        transform: translateX(40px) skewX(-30deg);      
+    }
+    100% { transform: translateX(0px) }
+  }
+  
+  .ani-navbar:hover p {
+    animation-name: slide;
+    animation-duration: 1s;
+  } 
+
+.search {
+position: relative;
+padding: 10px;
+margin: 100px;
+width: 300px;
+}
+
+input {
+width: 100%;
+border: 1px solid #bbb;
+border-radius: 8px;
+padding: 10px 12px;
+font-size: 14px;
+}
+
+img {
+position : absolute;
+width: 20px;
+top: 20px;
+right: 12px;
+margin: 0;
+}
+
+.home {
+    padding: 20px;
+    margin: 20px;
+}
+
+   */
+.ani-navbar {
+  float: left;
+  width: 20%;
+  background: rgb(63, 32, 92);
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+  transition: all 1s;
+  transform: translateX(-150px);
+}
+.ani-navbar:hover {
+  transform: translateX(0px);
+  text-align: center;
+}
+
+
+@keyframes slide {
+  0% { transform: translateX(-250px) }
+  100% { transform: translateX(150px) }
+}
+@keyframes slide1 {
+  0% { transform: translateX(250px) }
+  100% { transform: translateX(-150px) }
+}
+
+.ani-navbar:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+} 
+.ani-navbar:hover i {
+  animation-name: slide1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+} 
+.search {
+  float: left;
+  padding-left: 100px;
+  padding-top: 10px;
+  transition: width 1s;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.searchL:focus {
+  width: 300px;
+}
+.header {
+  float: left;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.profile {
+  float: right;
+  margin-left: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+@keyframes header {
+  0% { 
+      width: 300px;
+  }
+  100% { 
+      width: 400px;
+      border: 3px solid skyblue;
+  }
+}
+.header:hover input {
+  animation-name: header;
+  animation-duration: 1s;
+  animation-fill-mode: forwards
+} 
+.board {
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card1 {
+  border-left: 3px solid blue;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.chart {
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 10px;
+}
